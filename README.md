@@ -33,6 +33,21 @@ file on Figma, which can be found [here](https://www.figma.com/design/FfnVADRC9x
 </details>
 
 ----
+For this project, we will assume the following:
+- Mobile devices have a width of 768px or less.
+- Tablets have a width of 1024px or less
+- Desktop/laptop screens have a width of 1025px or more.
+
+A mobile phone with a width of ~700px in portrait would trigger the CSS for
+tablets when rotated to landscape. Depending on the phone, it may even trigger
+the desktop CSS. My phone does.
+
+The global CSS will be in [styles/styles.css](/styles/styles.css) (i.e., fonts, variables, and everything else all 3 variants share)
+Desktop only CSS will be in [styles/desktop.css](/styles/desktop.css)
+Tablet only CSS will be in [styles/tablet.css](/styles/tablet.css)
+Mobile only CSS will be in [styles/mobile.css](/styles/mobile.css)
+
+----
 ## Authors*
 [Daniel S](https://github.com/Zytronium)  
 [Cole K](https://github.com/ColeBiefrey)
@@ -48,7 +63,7 @@ of "1, 2, 3, 4, etc.". "​" is a zero-width space)
 - [X] ​0. ReadMe and be familiar with Figma | Daniel
 - [ ] ​1. Header | Daniel
 - [ ] ​2. Body | Unassigned
-- [ ] ​3. "Our results" section | Unassigned
+- [ ] ​3. "Our results" section | Daniel
 - [ ] ​4. Contact us | Unassigned
 - [ ] ​5. Footer | Unassigned
 - [X] ​6. Host on Pages! | Daniel
