@@ -54,6 +54,9 @@ Mobile only CSS will be in [styles/mobile.css](/styles/mobile.css)
 
 ###### * We did not create the original on Figma. We only recreated it with HTML and CSS
 
+### Original Website
+Designed by Nicolas Philippot, UI/UX designer
+
 ----
 
 ### Tasks checklist:
