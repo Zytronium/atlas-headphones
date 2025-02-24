@@ -1,4 +1,10 @@
 /* Tablet Device Styles */
 @media (max-width: 1024px) {
 
+    .header-bar-container {
+        width: 633px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

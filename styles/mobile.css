@@ -1,4 +1,62 @@
 /* Mobile Device Styles */
 @media (max-width: 768px) {
 
+    header {
+        height: 869px;
+    }
+
+    .header-bar-container {
+        width: 100%;
+    }
+
+    .header-bar-container .menu-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-left: 21px;
+    }
+
+    .header-bar-container .menu-icon span {
+        background-color: white;
+        height: 2px;
+    }
+
+    .header-bar-container .menu-icon span:nth-child(1) {
+        width: 20px;
+    }
+
+    .header-bar-container .menu-icon span:nth-child(2) {
+        width: 13px;
+    }
+
+    .header-bar-container .menu-icon span:nth-child(3) {
+        width: 18px;
+    }
+
+    .header-bar {
+        margin-right: 21px;
+        /*
+           This keeps the logo centered, counteracting the
+           margin-left that keeps the menu icon 21px from
+           the left edge of the page. (This works on all
+           screen sizes; margin: auto will not work in this
+           context, because we're counteracting the margin
+           on a different element, whose placement affects
+           the placement of this element. )
+        */
+    }
+
+    .header-bar img {
+        margin: auto;
+    }
+
+    #nav-links {
+        display: none !important;
+    }
+
+    #header-content {
+        margin-top: 266px;
+        margin-bottom: 109px;
+    }
+
 }
