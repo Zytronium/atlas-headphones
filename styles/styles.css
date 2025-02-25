@@ -69,8 +69,21 @@ a:hover {
 }
 
 #header-content {
-    margin: 312px 9px 115px 9px;
+    margin: 312px 9px 115px 9px; /* Note: the 9px is not to center; its to keep it at least 9px from the sides. */
     max-width: 637px;
+}
+
+#header-content h1 {
+    margin: 0 auto;
+}
+
+#header-content h2 {
+    margin: 0 auto 40px;
+    max-width: 75%;
+}
+
+#header-content p {
+    margin: 65px auto 0;
 }
 
 button {
