@@ -43,23 +43,7 @@
 
 
 </header>
-<main>
-    <p id="device-width"></p>
-</main>
-
+<main></main>
 <footer></footer>
-
-<!-- Test Script for getting the width of the page when viewed on my phone for debugging purposes. -->
-<script>
-    function updateWidth() {
-        const widthParagraph = document.getElementById("device-width");
-
-        if (!widthParagraph) return;
-        widthParagraph.textContent = "Window Width: " + window.innerWidth + "px";
-    }
-
-    updateWidth();
-    window.addEventListener("resize", updateWidth);
-</script>
 </body>
 </html>
