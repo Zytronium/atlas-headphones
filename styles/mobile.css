@@ -3,33 +3,45 @@
 
     header {
         height: 869px;
+        background-position: 35% top;
+    }
+
+    .header-bar-wrapper {
+        display: flex;
+        flex-direction: column;
     }
 
     .header-bar-container {
         width: 100%;
     }
 
-    .header-bar-container .menu-icon {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
+    .header-bar-wrapper {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: flex !important;
         margin-left: 21px;
     }
 
-    .header-bar-container .menu-icon span {
+    .menu-icon span {
         background-color: white;
         height: 2px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        display: block;
+        transition: transform 0.25s ease, width 0.125s ease;
     }
 
-    .header-bar-container .menu-icon span:nth-child(1) {
+    .menu-icon span:nth-child(1) {
         width: 20px;
     }
 
-    .header-bar-container .menu-icon span:nth-child(2) {
+    .menu-icon span:nth-child(2) {
         width: 13px;
     }
 
-    .header-bar-container .menu-icon span:nth-child(3) {
+    .menu-icon span:nth-child(3) {
         width: 18px;
     }
 
@@ -51,7 +63,51 @@
     }
 
     #nav-links {
+        display: none;
+    }
+
+    #mobile-nav-menu-container {
+        display: none;
+    }
+
+    #mobile-nav-menu-container:target {
+        display: block;
+    }
+
+    #mobile-nav-menu-container:target ~ .header-bar-container .menu-icon span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px) !important;
+        width: 20px;
+    }
+
+    #mobile-nav-menu-container:target ~ .header-bar-container .menu-icon span:nth-child(2) {
         display: none !important;
+        width: 0;
+    }
+
+    #mobile-nav-menu-container:target ~  .header-bar-container .menu-icon span:nth-child(4) {
+        transform: rotate(-45deg) translate(5px, -5px) !important;
+        width: 20px;
+    }
+
+    #mobile-nav-links {
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    #mobile-nav-links a {
+        margin-top: 40px;
+        z-index: 2;
+    }
+
+    .close-menu {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
     }
 
     #header-content {

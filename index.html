@@ -12,19 +12,31 @@
 <body>
 <header>
     <!-- nav bar -->
-    <div class="header-bar-container">
-        <div class="menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
+    <div class="header-bar-wrapper">
+        <div class="header-bar-container">
+            <div class="menu-icon" tabindex="0">
+                <a href="#mobile-nav-menu-container">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="header-bar">
+                <img src="images/logo_headphones.png" alt="logo" width="161" height="32">
+                <nav id="nav-links">
+                    <a href="#what-we-do" class="nav-link">what we do</a>
+                    <a href="#our-results" class="nav-link">our results</a>
+                    <a href="#contact-us" class="nav-link">contact us</a>
+                </nav>
+            </div>
         </div>
-        <div class="header-bar">
-            <img src="images/logo_headphones.png" alt="logo" width="161" height="32">
-            <nav id="nav-links">
-                <a class="nav-link">what we do</a>
-                <a class="nav-link">our results</a>
-                <a class="nav-link">contact us</a>
+        <div id="mobile-nav-menu-container">
+            <nav id="mobile-nav-links">
+                <a href="#what-we-do" class="nav-link">what we do</a>
+                <a href="#our-results" class="nav-link">our results</a>
+                <a href="#contact-us" class="nav-link">contact us</a>
             </nav>
+            <a href="#" class="close-menu"></a>
         </div>
     </div>
 

@@ -42,10 +42,14 @@ header {
     display: none;
 }
 
-.header-bar #nav-links {
+#nav-links {
     display: flex;
     flex-direction: row;
     gap: 41px;
+}
+
+#mobile-nav-links {
+    display: none;
 }
 
 h1 {
@@ -63,9 +67,13 @@ p {
     font-weight: 300;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 a:hover {
     color: var(--color-primary);
-    cursor: pointer;
 }
 
 #header-content {
@@ -98,6 +106,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: #d95757;
 }
 
 /* Font Families */
