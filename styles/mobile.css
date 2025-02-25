@@ -74,21 +74,6 @@
         display: block;
     }
 
-    #mobile-nav-menu-container:target ~ .header-bar-container .menu-icon span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px) !important;
-        width: 20px;
-    }
-
-    #mobile-nav-menu-container:target ~ .header-bar-container .menu-icon span:nth-child(2) {
-        display: none !important;
-        width: 0;
-    }
-
-    #mobile-nav-menu-container:target ~  .header-bar-container .menu-icon span:nth-child(4) {
-        transform: rotate(-45deg) translate(5px, -5px) !important;
-        width: 20px;
-    }
-
     #mobile-nav-links {
         display: flex;
         flex-direction: column;
