@@ -1,10 +1,20 @@
 /* Tablet Device Styles */
 @media (max-width: 1024px) {
 
+    /* Header styles */
     .header-bar-container {
         width: 633px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* Body (What we do section) styles */
+
+
+    /* Our Results section styles */
+    #pentagons {
+        margin-top: 66px;
+        margin-bottom: 15px;
     }
 
 }
