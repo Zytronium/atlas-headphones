@@ -1,6 +1,7 @@
 /* Mobile Device Styles */
 @media (max-width: 768px) {
 
+    /* Header styles */
     header {
         height: 869px;
         background-position: 35% top;
@@ -98,6 +99,19 @@
     #header-content {
         margin-top: 266px;
         margin-bottom: 109px;
+    }
+
+    /* Body (What we do section) styles */
+
+
+    /* Our Results section styles */
+    #our-results-text-wrapper h1 {
+        margin-top: 125px;
+    }
+
+    #pentagons {
+        margin-top: 67px;
+        margin-bottom: 31px;
     }
 
 }
