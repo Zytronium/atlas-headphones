@@ -64,7 +64,7 @@ Designed by Nicolas Philippot, UI/UX designer
 numbers will be formatted like "i, ii, iii, iv, etc." instead
 of "1, 2, 3, 4, etc.". "​" is a zero-width space)
 - [X] ​0. ReadMe and be familiar with Figma | Daniel
-- [ ] ​1. Header | Daniel
+- [X] ​1. Header | Daniel
 - [ ] ​2. Body | Cole
 - [ ] ​3. "Our results" section | Daniel
 - [ ] ​4. Contact us | Cole
