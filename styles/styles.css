@@ -21,7 +21,7 @@ h2 {
 p {
     line-height: 26px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 300; /* This is lighter than in the Figma file, but it looks exactly like the figma file, unlike weight=400 */
 }
 
 a {
@@ -31,7 +31,7 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+a:hover + a:active {
     color: var(--color-primary);
 }
 
@@ -46,9 +46,9 @@ button {
     font-size: 12px;
 }
 
-button:hover {
+button:hover + button:active {
     cursor: pointer;
-    background-color: #d95757;
+    opacity: 0.9;
 }
 
 /* Header styles */
@@ -138,7 +138,7 @@ header {
     margin: 0 auto;
 }
 
-#our-results-text-wrapper h1 {
+#our-results-text-wrapper h2 {
     font-weight: 600;
     font-size: 32px;
     margin: 141px 35px 40px; /* note: the 35px margin is not for centering; its to keep the text at least 35px from the edge.*/
@@ -167,7 +167,7 @@ header {
     z-index: 1;
 }
 
-.pentagon h2 {
+.pentagon h3 {
     font-weight: bold;
     font-size: 46px;
     margin-bottom: 5px;
