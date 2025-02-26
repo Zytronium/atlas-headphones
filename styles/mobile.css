@@ -122,3 +122,40 @@
     border: none;
     width: 70%;
 }
+
+#footer-container {
+    background-image: url(../images/footer_background.png);
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#footer-block {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    width: 100%;
+    align-items: center;
+}
+
+#footer-icon {
+    width: 70%;
+    margin-left: 20%;
+}
+
+#footer-logo-png {
+    max-width: 65%;
+}
+
+#social-pngs {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5%;
+}
+
+#copyright-segment {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top: 15%;
+}

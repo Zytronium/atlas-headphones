@@ -129,3 +129,39 @@
     border: none;
     width: 50%;
 }
+
+#footer-container {
+    background-image: url(../images/footer_background.png);
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#footer-block {
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-icon {
+    margin-left: 12%;
+}
+
+#footer-logo-png {
+    max-width: 65%;
+}
+
+#social-pngs {
+    display: flex;
+    gap: 1rem;
+    margin-right: 12%;
+}
+
+#copyright-segment {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top: 4%;
+}
