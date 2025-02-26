@@ -1,7 +1,113 @@
 /* Global Styles */
+:root {
+    --color-primary: #FF6565;
+}
+
 body {
     font-family: Source Sans Pro, 'Source Sans Pro', sans-serif;
     margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 800px;
+    color: white;
+}
+
+.header-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.header-bar-container .menu-icon {
+    display: none;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+}
+
+#mobile-nav-links {
+    display: none;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+#header-content {
+    margin: 312px 9px 115px 9px; /* Note: the 9px is not to center; its to keep it at least 9px from the sides. */
+    max-width: 637px;
+}
+
+#header-content h1 {
+    margin: 0 auto;
+}
+
+#header-content h2 {
+    margin: 0 auto 40px;
+    max-width: 75%;
+}
+
+#header-content p {
+    margin: 65px auto 0;
+}
+
+button {
+    background-color: var(--color-primary);
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    border: none;
+    padding: 13px 31px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d95757;
 }
 
 /* Font Families */
