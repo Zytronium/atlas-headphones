@@ -10,19 +10,12 @@
 
     /* Body (What we do section) styles */
 
-
-    /* Our Results section styles */
-
-
-
-}
-
 #what-we-do {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 #WWD-Main-Text {
@@ -170,4 +163,6 @@
     color: rgba(255, 255, 255, 0.4);
     text-align: center;
     margin-top: 4%;
+}
+
 }
