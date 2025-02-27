@@ -1,10 +1,6 @@
 /* Desktop Device Styles */
 @media (min-width: 768px) {
 
-    .header-bar-wrapper {
-        width: 95%;
-    }
-
     /* Header styles */
     .header-bar-container {
         max-width: 1000px;
@@ -12,7 +8,7 @@
         margin-right: auto;
     }
 
-    /* Body (What we do section) styles */
+    /* Body and Footer styles */
     #what-we-do {
         width: 100%;
         display: flex;
@@ -109,7 +105,7 @@
 
     .input-group input {
         border: none;
-        box-sizing: none;
+        outline: none;
         border-bottom: 1px solid #979797;
     }
 

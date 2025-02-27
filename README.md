@@ -6,7 +6,7 @@ we previously learned. This will be done without much of instruction. The goal
 is simple: Have a fully functional web page that looks the same as the designer
 file on Figma, which can be found [here](https://www.figma.com/design/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?node-id=0-1&p=f&t=flRs5nrNmJX9IxOc-0).
 
-[You can view the project on GitHub Pages here](https://zytronium.github.io/atlas-headphones/).
+**[You can view the project on GitHub Pages here](https://zytronium.github.io/atlas-headphones/).**
 
 <details>
     <summary>Click here to show what the final product should look like on desktop, tablet, and mobile.</summary>
@@ -72,4 +72,4 @@ of "1, 2, 3, 4, etc.". "​" is a zero-width space)
 - [X] ​6. Host on Pages! | Daniel
 
 
-- [ ] **Everything Done ✓** *Needs some touch-ups.
+- [X] **Everything Done ✓**

@@ -66,6 +66,10 @@ header {
     color: white;
 }
 
+.header-bar-wrapper {
+    width: 95%;
+}
+
 .header-bar-container {
     display: flex;
     flex-direction: row;
@@ -116,7 +120,7 @@ header {
 }
 
 /* Body (What we do section) styles */
-
+/* (not here/somewhere else; result of working separately; not worth fixing now that we're finished) */
 
 /* Our Results section styles */
 #our-results {
@@ -151,6 +155,11 @@ header {
     margin-bottom: 47px;
 }
 
+.penta-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .pentagon {
     display: flex;
     flex-direction: column;
@@ -178,6 +187,10 @@ header {
 
 .pentagon-background {
     position: absolute;
+}
+
+.social-png:hover, .social-png:active {
+    opacity: 0.9;
 }
 
 /* Font Families */
