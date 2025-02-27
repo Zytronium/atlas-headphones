@@ -1,7 +1,185 @@
 /* Global Styles */
+:root {
+    --color-primary: #FF6565;
+}
+
 body {
     font-family: Source Sans Pro, 'Source Sans Pro', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 300; /* This is lighter than in the Figma file, but it looks exactly like the figma file, unlike weight=400 */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a:hover + a:active {
+    color: var(--color-primary);
+}
+
+button {
+    background-color: var(--color-primary);
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    border: none;
+    padding: 15px 31px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button:hover + button:active {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 800px;
+    color: white;
+}
+
+.header-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.header-bar-container .menu-icon {
+    display: none;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+}
+
+#mobile-nav-links {
+    display: none;
+}
+
+#header-content {
+    margin: 312px 9px 115px 9px; /* Note: the 9px is not to center; its to keep it at least 9px from the sides. */
+    max-width: 637px;
+}
+
+#header-content h1 {
+    margin: 0 auto;
+}
+
+#header-content h2 {
+    margin: 0 auto 40px;
+    max-width: 75%;
+}
+
+#header-content p {
+    margin: 65px auto 0;
+}
+
+/* Body (What we do section) styles */
+#what-we-do {
+    height: 694px; /* placeholder to separate sections */
+}
+
+/* Our Results section styles */
+#our-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#our-results-text-wrapper {
+    max-width: 637px;
+    margin: 0 auto;
+}
+
+#our-results-text-wrapper h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin: 141px 35px 40px; /* note: the 35px margin is not for centering; its to keep the text at least 35px from the edge.*/
+}
+
+#pentagons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 47px;
+}
+
+.pentagon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 190px;
+    margin: 0 38px 42px 38px;
+}
+
+.pentagon * {
+    z-index: 1;
+}
+
+.pentagon h3 {
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 5px;
+}
+
+.pentagon p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.pentagon-background {
+    position: absolute;
 }
 
 /* Font Families */
