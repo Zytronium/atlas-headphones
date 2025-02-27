@@ -1,4 +1,4 @@
-# Designer Language - Validate
+# Implement a Design from Scratch
 
 In this project, we recreate a specific web page from scratch without using any
 libraries. We will use all HTML/CSS/Accessibility/Responsive design skills that
@@ -34,11 +34,11 @@ file on Figma, which can be found [here](https://www.figma.com/design/FfnVADRC9x
 
 ----
 For this project, we will assume the following:
-- Mobile devices have a width of 768px or less.
-- Tablets have a width of 1024px or less
-- Desktop/laptop screens have a width of 1025px or more.
+- Mobile devices have a width of 480px or less.
+- Tablets have a width of 767px or less
+- Desktop/laptop screens have a width of 768px or more.
 
-A mobile phone with a width of ~700px in portrait would trigger the CSS for
+A mobile phone with a width of ~400px in portrait would trigger the CSS for
 tablets when rotated to landscape. Depending on the phone, it may even trigger
 the desktop CSS. My phone does.
 
@@ -72,4 +72,4 @@ of "1, 2, 3, 4, etc.". "​" is a zero-width space)
 - [X] ​6. Host on Pages! | Daniel
 
 
-- [ ] **Everything Done ✓**
+- [ ] **Everything Done ✓** *Needs some touch-ups.
