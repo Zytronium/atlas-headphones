@@ -65,10 +65,10 @@ numbers will be formatted like "i, ii, iii, iv, etc." instead
 of "1, 2, 3, 4, etc.". "​" is a zero-width space)
 - [X] ​0. ReadMe and be familiar with Figma | Daniel
 - [X] ​1. Header | Daniel
-- [ ] ​2. Body | Cole
+- [X] ​2. Body | Cole
 - [X] ​3. "Our results" section | Daniel
-- [ ] ​4. Contact us | Cole
-- [ ] ​5. Footer | Cole
+- [X] ​4. Contact us | Cole
+- [X] ​5. Footer | Cole
 - [X] ​6. Host on Pages! | Daniel
 
 

@@ -17,7 +17,7 @@
 
 }
 
-#WWD-Container {
+#what-we-do {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,14 +62,6 @@
     text-align: center;
 }
 
-.holberton_school-icon-ic_sound,
-.holberton_school-icon-ic_video,
-.holberton_school-icon-ic_music,
-.holberton_school-icon-ic_hearing {
-    font-size: 90px;
-    color: #FF6565;
-}
-
 .WWD-inner-title {
     font-size: 18px;
     font-weight: 600;
@@ -82,7 +74,7 @@
     line-height: 1.5;;
 }
 
-#contact-us-container {
+#contact-us {
     display: flex;
     justify-content: center;
     align-items: center;

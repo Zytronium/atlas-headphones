@@ -19,7 +19,7 @@
 
 }
 
-#WWD-Container {
+#what-we-do {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
     line-height: 1.5;;
 }
 
-#contact-us-container {
+#contact-us {
     display: flex;
     justify-content: center;
     align-items: center;
