@@ -172,4 +172,12 @@
     margin-top: 10%;
 }
 
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_hearing {
+    font-size: 90px;
+    color: #FF6565;
+}
+
 }
