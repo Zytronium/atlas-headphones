@@ -124,18 +124,6 @@
     padding-top: 10%;
 }
 
-#contact-button2 {
-    border-radius: 22px;
-    background-color: #FF6565;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 1rem;
-    margin-top: 1rem;
-    border: none;
-    width: 60%;
-}
-
 #footer-container {
     background-image: url(../images/footer_background.png);
     width: 100%;

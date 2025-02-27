@@ -31,7 +31,7 @@ a {
     font-weight: bold;
 }
 
-a:hover + a:active {
+a:hover, a:active {
     color: var(--color-primary);
 }
 
@@ -46,7 +46,7 @@ button {
     font-size: 12px;
 }
 
-button:hover + button:active {
+button:hover, button:active {
     cursor: pointer;
     opacity: 0.9;
 }
